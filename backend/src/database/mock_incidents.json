@@ -1,0 +1,3452 @@
+[
+    {
+        "sys_id": "1",
+        "number": "INC0000001",
+        "short_description": "AWS outages: API Gateway failing in us-east-1",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-10 09:52:49",
+        "resolved_at": ""
+    },
+    {
+        "sys_id": "2",
+        "number": "INC0000002",
+        "short_description": "Multiple AWS outages affecting S3 bucket access",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-07 16:19:47",
+        "resolved_at": ""
+    },
+    {
+        "sys_id": "3",
+        "number": "INC0000003",
+        "short_description": "Database disconnected due to recent AWS outages",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-13 17:45:14",
+        "resolved_at": "2026-08-15 00:45:14"
+    },
+    {
+        "sys_id": "4",
+        "number": "INC0000004",
+        "short_description": "Active Directory replication issue in E",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-04 18:28:30",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "5",
+        "number": "INC0000005",
+        "short_description": "Data warehouse QA load failure",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-02 22:33:51",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "6",
+        "number": "INC0000006",
+        "short_description": "Memory leak detected in Prod service",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-09 01:53:59",
+        "resolved_at": "2026-08-09 20:53:59"
+    },
+    {
+        "sys_id": "7",
+        "number": "INC0000007",
+        "short_description": "Memory leak detected in E service",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-24 09:02:11",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "8",
+        "number": "INC0000008",
+        "short_description": "Mouse not working for B",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-30 07:37:56",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "9",
+        "number": "INC0000009",
+        "short_description": "Cannot access HR portal from E",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-14 23:42:44",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "10",
+        "number": "INC0000010",
+        "short_description": "Data warehouse F load failure",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-03 06:30:13",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "11",
+        "number": "INC0000011",
+        "short_description": "Disk space critically low on A",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-14 02:20:58",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "12",
+        "number": "INC0000012",
+        "short_description": "Cannot access HR portal from 2",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-07 21:45:58",
+        "resolved_at": "2026-08-10 17:45:58"
+    },
+    {
+        "sys_id": "13",
+        "number": "INC0000013",
+        "short_description": "Email server sync delayed on 3",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-29 01:02:55",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "14",
+        "number": "INC0000014",
+        "short_description": "Security certificate expired for 1",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-21 20:18:01",
+        "resolved_at": "2026-08-23 23:18:01"
+    },
+    {
+        "sys_id": "15",
+        "number": "INC0000015",
+        "short_description": "Laptop screen flickering for user QA",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-11 23:21:47",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "16",
+        "number": "INC0000016",
+        "short_description": "Cannot access HR portal from B",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-23 22:45:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "17",
+        "number": "INC0000017",
+        "short_description": "Load balancer E degraded",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-13 18:22:27",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "18",
+        "number": "INC0000018",
+        "short_description": "Memory leak detected in A service",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-12 05:17:44",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "19",
+        "number": "INC0000019",
+        "short_description": "Laptop screen flickering for user F",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-17 21:58:14",
+        "resolved_at": "2026-09-18 20:58:14"
+    },
+    {
+        "sys_id": "20",
+        "number": "INC0000020",
+        "short_description": "Payment Gateway Timeout for F",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-05 18:15:02",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "21",
+        "number": "INC0000021",
+        "short_description": "Cannot access HR portal from B",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-18 02:44:05",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "22",
+        "number": "INC0000022",
+        "short_description": "Network outage in building Dev",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-14 17:25:08",
+        "resolved_at": "2026-09-17 00:25:08"
+    },
+    {
+        "sys_id": "23",
+        "number": "INC0000023",
+        "short_description": "Active Directory replication issue in A",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-15 21:38:03",
+        "resolved_at": "2026-08-17 10:38:03"
+    },
+    {
+        "sys_id": "24",
+        "number": "INC0000024",
+        "short_description": "New employee 2 workstation setup",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-01 09:27:58",
+        "resolved_at": "2026-09-02 03:27:58"
+    },
+    {
+        "sys_id": "25",
+        "number": "INC0000025",
+        "short_description": "Laptop screen flickering for user F",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-26 03:26:35",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "26",
+        "number": "INC0000026",
+        "short_description": "Data warehouse D load failure",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-18 23:07:12",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "27",
+        "number": "INC0000027",
+        "short_description": "Laptop screen flickering for user C",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-07 00:38:05",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "28",
+        "number": "INC0000028",
+        "short_description": "Active Directory replication issue in 1",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-09 13:33:36",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "29",
+        "number": "INC0000029",
+        "short_description": "Cannot access HR portal from 1",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-03 11:58:19",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "30",
+        "number": "INC0000030",
+        "short_description": "Password reset required for 3",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-16 16:50:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "31",
+        "number": "INC0000031",
+        "short_description": "Memory leak detected in 3 service",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-14 20:22:12",
+        "resolved_at": "2026-08-16 16:22:12"
+    },
+    {
+        "sys_id": "32",
+        "number": "INC0000032",
+        "short_description": "Security certificate expired for A",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-20 04:48:31",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "33",
+        "number": "INC0000033",
+        "short_description": "Cannot access HR portal from D",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-09 06:43:35",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "34",
+        "number": "INC0000034",
+        "short_description": "Database server Staging high CPU usage",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-16 21:03:07",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "35",
+        "number": "INC0000035",
+        "short_description": "Password reset required for F",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-20 07:31:25",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "36",
+        "number": "INC0000036",
+        "short_description": "Customer portal C slow response time",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-02 13:19:55",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "37",
+        "number": "INC0000037",
+        "short_description": "Mouse not working for 1",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-17 23:14:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "38",
+        "number": "INC0000038",
+        "short_description": "API Gateway Prod throwing 500s",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-09 18:47:57",
+        "resolved_at": "2026-08-11 23:47:57"
+    },
+    {
+        "sys_id": "39",
+        "number": "INC0000039",
+        "short_description": "Payment Gateway Timeout for F",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-18 18:26:43",
+        "resolved_at": "2026-09-18 23:26:43"
+    },
+    {
+        "sys_id": "40",
+        "number": "INC0000040",
+        "short_description": "Disk space critically low on Prod",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-27 08:43:35",
+        "resolved_at": "2026-08-30 07:43:35"
+    },
+    {
+        "sys_id": "41",
+        "number": "INC0000041",
+        "short_description": "Memory leak detected in D service",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-07 20:01:48",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "42",
+        "number": "INC0000042",
+        "short_description": "Active Directory replication issue in 1",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-02 23:14:06",
+        "resolved_at": "2026-08-04 13:14:06"
+    },
+    {
+        "sys_id": "43",
+        "number": "INC0000043",
+        "short_description": "Network outage in building 1",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-07 07:07:19",
+        "resolved_at": "2026-09-10 04:07:19"
+    },
+    {
+        "sys_id": "44",
+        "number": "INC0000044",
+        "short_description": "Mouse not working for F",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-06 20:52:59",
+        "resolved_at": "2026-08-08 06:52:59"
+    },
+    {
+        "sys_id": "45",
+        "number": "INC0000045",
+        "short_description": "AWS outage affecting QA microservices",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-01 08:55:12",
+        "resolved_at": "2026-08-03 10:55:12"
+    },
+    {
+        "sys_id": "46",
+        "number": "INC0000046",
+        "short_description": "API Gateway Prod throwing 500s",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-03 11:57:56",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "47",
+        "number": "INC0000047",
+        "short_description": "Security certificate expired for E",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-10 03:51:32",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "48",
+        "number": "INC0000048",
+        "short_description": "Database server E high CPU usage",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-10 23:25:31",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "49",
+        "number": "INC0000049",
+        "short_description": "Load balancer 3 degraded",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-18 00:49:28",
+        "resolved_at": "2026-09-20 04:49:28"
+    },
+    {
+        "sys_id": "50",
+        "number": "INC0000050",
+        "short_description": "Customer portal C slow response time",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-13 19:42:37",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "51",
+        "number": "INC0000051",
+        "short_description": "Load balancer 2 degraded",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-22 05:32:56",
+        "resolved_at": "2026-08-22 21:32:56"
+    },
+    {
+        "sys_id": "52",
+        "number": "INC0000052",
+        "short_description": "AWS outage affecting Dev microservices",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-20 02:47:02",
+        "resolved_at": "2026-08-20 23:47:02"
+    },
+    {
+        "sys_id": "53",
+        "number": "INC0000053",
+        "short_description": "Printer Staging out of toner",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-26 15:37:32",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "54",
+        "number": "INC0000054",
+        "short_description": "Payment Gateway Timeout for 2",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-10 00:16:09",
+        "resolved_at": "2026-08-11 17:16:09"
+    },
+    {
+        "sys_id": "55",
+        "number": "INC0000055",
+        "short_description": "Email server sync delayed on E",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-05 22:35:44",
+        "resolved_at": "2026-09-07 23:35:44"
+    },
+    {
+        "sys_id": "56",
+        "number": "INC0000056",
+        "short_description": "Active Directory replication issue in Dev",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-21 06:07:09",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "57",
+        "number": "INC0000057",
+        "short_description": "Data warehouse E load failure",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-22 02:10:30",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "58",
+        "number": "INC0000058",
+        "short_description": "Email server sync delayed on Prod",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-23 04:33:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "59",
+        "number": "INC0000059",
+        "short_description": "Unable to connect to VPN from Prod",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-10 08:08:45",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "60",
+        "number": "INC0000060",
+        "short_description": "Printer Staging out of toner",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-04 05:38:22",
+        "resolved_at": "2026-09-07 02:38:22"
+    },
+    {
+        "sys_id": "61",
+        "number": "INC0000061",
+        "short_description": "AWS outage affecting QA microservices",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-18 11:01:17",
+        "resolved_at": "2026-08-20 02:01:17"
+    },
+    {
+        "sys_id": "62",
+        "number": "INC0000062",
+        "short_description": "Mouse not working for Staging",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-23 04:22:37",
+        "resolved_at": "2026-08-23 15:22:37"
+    },
+    {
+        "sys_id": "63",
+        "number": "INC0000063",
+        "short_description": "Laptop screen flickering for user Prod",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-09 08:39:50",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "64",
+        "number": "INC0000064",
+        "short_description": "Laptop screen flickering for user E",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-05 00:22:20",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "65",
+        "number": "INC0000065",
+        "short_description": "Data warehouse 1 load failure",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-11 05:34:50",
+        "resolved_at": "2026-08-12 15:34:50"
+    },
+    {
+        "sys_id": "66",
+        "number": "INC0000066",
+        "short_description": "Cannot access HR portal from E",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-08 22:38:09",
+        "resolved_at": "2026-08-10 11:38:09"
+    },
+    {
+        "sys_id": "67",
+        "number": "INC0000067",
+        "short_description": "Laptop screen flickering for user D",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-02 18:12:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "68",
+        "number": "INC0000068",
+        "short_description": "Memory leak detected in QA service",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-26 15:28:54",
+        "resolved_at": "2026-08-28 10:28:54"
+    },
+    {
+        "sys_id": "69",
+        "number": "INC0000069",
+        "short_description": "API Gateway Dev throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-19 11:09:19",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "70",
+        "number": "INC0000070",
+        "short_description": "New employee 1 workstation setup",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-18 18:20:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "71",
+        "number": "INC0000071",
+        "short_description": "Database server C high CPU usage",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-17 02:51:42",
+        "resolved_at": "2026-09-18 16:51:42"
+    },
+    {
+        "sys_id": "72",
+        "number": "INC0000072",
+        "short_description": "Unable to connect to VPN from C",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-19 19:34:57",
+        "resolved_at": "2026-08-22 17:34:57"
+    },
+    {
+        "sys_id": "73",
+        "number": "INC0000073",
+        "short_description": "Unable to connect to VPN from F",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-16 10:12:20",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "74",
+        "number": "INC0000074",
+        "short_description": "Network outage in building B",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-01 19:17:31",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "75",
+        "number": "INC0000075",
+        "short_description": "API Gateway 1 throwing 500s",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-11 09:54:32",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "76",
+        "number": "INC0000076",
+        "short_description": "Cannot access HR portal from C",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-23 03:41:50",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "77",
+        "number": "INC0000077",
+        "short_description": "API Gateway 3 throwing 500s",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-15 14:19:48",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "78",
+        "number": "INC0000078",
+        "short_description": "Email server sync delayed on Dev",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-13 19:55:49",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "79",
+        "number": "INC0000079",
+        "short_description": "Customer portal B slow response time",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-04 23:00:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "80",
+        "number": "INC0000080",
+        "short_description": "Laptop screen flickering for user QA",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-08 16:03:35",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "81",
+        "number": "INC0000081",
+        "short_description": "Unable to connect to VPN from 2",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-04 17:13:19",
+        "resolved_at": "2026-09-04 22:13:19"
+    },
+    {
+        "sys_id": "82",
+        "number": "INC0000082",
+        "short_description": "New employee E workstation setup",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-10 08:37:10",
+        "resolved_at": "2026-09-13 01:37:10"
+    },
+    {
+        "sys_id": "83",
+        "number": "INC0000083",
+        "short_description": "Mouse not working for C",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-06 08:50:33",
+        "resolved_at": "2026-09-08 08:50:33"
+    },
+    {
+        "sys_id": "84",
+        "number": "INC0000084",
+        "short_description": "Payment Gateway Timeout for D",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-29 06:28:13",
+        "resolved_at": "2026-09-01 03:28:13"
+    },
+    {
+        "sys_id": "85",
+        "number": "INC0000085",
+        "short_description": "Database server 2 high CPU usage",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-15 00:05:28",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "86",
+        "number": "INC0000086",
+        "short_description": "Payment Gateway Timeout for C",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-26 10:25:49",
+        "resolved_at": "2026-08-29 08:25:49"
+    },
+    {
+        "sys_id": "87",
+        "number": "INC0000087",
+        "short_description": "Unable to connect to VPN from C",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-22 05:39:20",
+        "resolved_at": "2026-08-23 23:39:20"
+    },
+    {
+        "sys_id": "88",
+        "number": "INC0000088",
+        "short_description": "Load balancer Prod degraded",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-24 21:30:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "89",
+        "number": "INC0000089",
+        "short_description": "Disk space critically low on 2",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-16 13:37:40",
+        "resolved_at": "2026-08-18 04:37:40"
+    },
+    {
+        "sys_id": "90",
+        "number": "INC0000090",
+        "short_description": "Disk space critically low on 1",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-29 08:14:21",
+        "resolved_at": "2026-08-29 23:14:21"
+    },
+    {
+        "sys_id": "91",
+        "number": "INC0000091",
+        "short_description": "Unable to connect to VPN from Staging",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-06 08:09:29",
+        "resolved_at": "2026-08-06 19:09:29"
+    },
+    {
+        "sys_id": "92",
+        "number": "INC0000092",
+        "short_description": "Active Directory replication issue in B",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-11 07:28:27",
+        "resolved_at": "2026-08-14 04:28:27"
+    },
+    {
+        "sys_id": "93",
+        "number": "INC0000093",
+        "short_description": "API Gateway 1 throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-21 14:50:39",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "94",
+        "number": "INC0000094",
+        "short_description": "Load balancer F degraded",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-02 07:23:44",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "95",
+        "number": "INC0000095",
+        "short_description": "Network outage in building Staging",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-31 03:59:40",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "96",
+        "number": "INC0000096",
+        "short_description": "Active Directory replication issue in E",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-11 20:07:53",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "97",
+        "number": "INC0000097",
+        "short_description": "New employee B workstation setup",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-17 00:43:44",
+        "resolved_at": "2026-09-19 17:43:44"
+    },
+    {
+        "sys_id": "98",
+        "number": "INC0000098",
+        "short_description": "Laptop screen flickering for user Staging",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-22 21:08:27",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "99",
+        "number": "INC0000099",
+        "short_description": "Payment Gateway Timeout for Dev",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-02 08:43:20",
+        "resolved_at": "2026-09-03 21:43:20"
+    },
+    {
+        "sys_id": "100",
+        "number": "INC0000100",
+        "short_description": "Data warehouse F load failure",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-13 16:02:26",
+        "resolved_at": "2026-08-15 13:02:26"
+    },
+    {
+        "sys_id": "101",
+        "number": "INC0000101",
+        "short_description": "Load balancer B degraded",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-02 12:38:02",
+        "resolved_at": "2026-09-02 16:38:02"
+    },
+    {
+        "sys_id": "102",
+        "number": "INC0000102",
+        "short_description": "AWS outage affecting QA microservices",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-11 10:44:33",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "103",
+        "number": "INC0000103",
+        "short_description": "Disk space critically low on B",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-21 04:51:08",
+        "resolved_at": "2026-08-21 09:51:08"
+    },
+    {
+        "sys_id": "104",
+        "number": "INC0000104",
+        "short_description": "Printer 2 out of toner",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-07 21:51:26",
+        "resolved_at": "2026-08-08 01:51:26"
+    },
+    {
+        "sys_id": "105",
+        "number": "INC0000105",
+        "short_description": "Data warehouse E load failure",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-04 22:35:56",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "106",
+        "number": "INC0000106",
+        "short_description": "Unable to connect to VPN from C",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-13 00:01:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "107",
+        "number": "INC0000107",
+        "short_description": "AWS outage affecting Dev microservices",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-12 06:27:01",
+        "resolved_at": "2026-08-12 12:27:01"
+    },
+    {
+        "sys_id": "108",
+        "number": "INC0000108",
+        "short_description": "Laptop screen flickering for user B",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-05 15:38:17",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "109",
+        "number": "INC0000109",
+        "short_description": "Payment Gateway Timeout for E",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-15 13:54:47",
+        "resolved_at": "2026-08-18 11:54:47"
+    },
+    {
+        "sys_id": "110",
+        "number": "INC0000110",
+        "short_description": "Data warehouse Prod load failure",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-06 20:31:24",
+        "resolved_at": "2026-09-08 06:31:24"
+    },
+    {
+        "sys_id": "111",
+        "number": "INC0000111",
+        "short_description": "Network outage in building F",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-30 17:29:07",
+        "resolved_at": "2026-08-31 13:29:07"
+    },
+    {
+        "sys_id": "112",
+        "number": "INC0000112",
+        "short_description": "Memory leak detected in 1 service",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-01 06:53:36",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "113",
+        "number": "INC0000113",
+        "short_description": "Data warehouse QA load failure",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-07 11:23:11",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "114",
+        "number": "INC0000114",
+        "short_description": "Mouse not working for Dev",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-06 06:56:20",
+        "resolved_at": "2026-09-07 14:56:20"
+    },
+    {
+        "sys_id": "115",
+        "number": "INC0000115",
+        "short_description": "Payment Gateway Timeout for 1",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-05 04:02:40",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "116",
+        "number": "INC0000116",
+        "short_description": "Cannot access HR portal from D",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-19 00:37:05",
+        "resolved_at": "2026-08-19 15:37:05"
+    },
+    {
+        "sys_id": "117",
+        "number": "INC0000117",
+        "short_description": "Mouse not working for Staging",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-25 19:13:43",
+        "resolved_at": "2026-08-27 12:13:43"
+    },
+    {
+        "sys_id": "118",
+        "number": "INC0000118",
+        "short_description": "Customer portal 1 slow response time",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-03 23:26:56",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "119",
+        "number": "INC0000119",
+        "short_description": "Disk space critically low on 3",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-21 16:55:53",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "120",
+        "number": "INC0000120",
+        "short_description": "Mouse not working for B",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-11 16:25:29",
+        "resolved_at": "2026-08-13 14:25:29"
+    },
+    {
+        "sys_id": "121",
+        "number": "INC0000121",
+        "short_description": "Email server sync delayed on C",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-01 03:26:10",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "122",
+        "number": "INC0000122",
+        "short_description": "Printer 2 out of toner",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-16 08:19:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "123",
+        "number": "INC0000123",
+        "short_description": "Laptop screen flickering for user Dev",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-11 02:28:17",
+        "resolved_at": "2026-09-13 02:28:17"
+    },
+    {
+        "sys_id": "124",
+        "number": "INC0000124",
+        "short_description": "Disk space critically low on Staging",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-15 22:24:28",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "125",
+        "number": "INC0000125",
+        "short_description": "New employee 1 workstation setup",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-07 04:17:00",
+        "resolved_at": "2026-08-09 21:17:00"
+    },
+    {
+        "sys_id": "126",
+        "number": "INC0000126",
+        "short_description": "Memory leak detected in B service",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-06 18:09:12",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "127",
+        "number": "INC0000127",
+        "short_description": "Email server sync delayed on Dev",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-16 17:58:05",
+        "resolved_at": "2026-08-18 22:58:05"
+    },
+    {
+        "sys_id": "128",
+        "number": "INC0000128",
+        "short_description": "Customer portal Dev slow response time",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-04 13:08:21",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "129",
+        "number": "INC0000129",
+        "short_description": "Memory leak detected in F service",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-13 23:31:10",
+        "resolved_at": "2026-09-14 17:31:10"
+    },
+    {
+        "sys_id": "130",
+        "number": "INC0000130",
+        "short_description": "Password reset required for B",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-03 20:39:24",
+        "resolved_at": "2026-09-04 12:39:24"
+    },
+    {
+        "sys_id": "131",
+        "number": "INC0000131",
+        "short_description": "Disk space critically low on 2",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-05 03:30:21",
+        "resolved_at": "2026-08-05 11:30:21"
+    },
+    {
+        "sys_id": "132",
+        "number": "INC0000132",
+        "short_description": "Disk space critically low on QA",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-18 08:02:16",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "133",
+        "number": "INC0000133",
+        "short_description": "Data warehouse F load failure",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-13 09:13:52",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "134",
+        "number": "INC0000134",
+        "short_description": "Laptop screen flickering for user QA",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-10 00:04:11",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "135",
+        "number": "INC0000135",
+        "short_description": "Laptop screen flickering for user 2",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-01 01:56:53",
+        "resolved_at": "2026-08-03 20:56:53"
+    },
+    {
+        "sys_id": "136",
+        "number": "INC0000136",
+        "short_description": "AWS outage affecting Dev microservices",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-03 01:13:16",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "137",
+        "number": "INC0000137",
+        "short_description": "Unable to connect to VPN from 1",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-04 19:01:17",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "138",
+        "number": "INC0000138",
+        "short_description": "Mouse not working for 3",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-28 04:20:43",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "139",
+        "number": "INC0000139",
+        "short_description": "Payment Gateway Timeout for 1",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-10 07:32:10",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "140",
+        "number": "INC0000140",
+        "short_description": "Active Directory replication issue in 3",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-21 07:14:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "141",
+        "number": "INC0000141",
+        "short_description": "Payment Gateway Timeout for Dev",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-28 19:37:53",
+        "resolved_at": "2026-08-31 07:37:53"
+    },
+    {
+        "sys_id": "142",
+        "number": "INC0000142",
+        "short_description": "Laptop screen flickering for user D",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-08 02:28:14",
+        "resolved_at": "2026-08-11 01:28:14"
+    },
+    {
+        "sys_id": "143",
+        "number": "INC0000143",
+        "short_description": "Customer portal Dev slow response time",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-04 08:42:04",
+        "resolved_at": "2026-09-05 11:42:04"
+    },
+    {
+        "sys_id": "144",
+        "number": "INC0000144",
+        "short_description": "Data warehouse Prod load failure",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-30 21:40:22",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "145",
+        "number": "INC0000145",
+        "short_description": "Customer portal Staging slow response time",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-04 01:38:10",
+        "resolved_at": "2026-09-04 07:38:10"
+    },
+    {
+        "sys_id": "146",
+        "number": "INC0000146",
+        "short_description": "Database server Staging high CPU usage",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-11 01:44:48",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "147",
+        "number": "INC0000147",
+        "short_description": "Network outage in building B",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-11 19:12:04",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "148",
+        "number": "INC0000148",
+        "short_description": "Unable to connect to VPN from F",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-06 00:06:48",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "149",
+        "number": "INC0000149",
+        "short_description": "New employee 1 workstation setup",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-13 19:09:35",
+        "resolved_at": "2026-09-16 09:09:35"
+    },
+    {
+        "sys_id": "150",
+        "number": "INC0000150",
+        "short_description": "Printer A out of toner",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-18 12:59:46",
+        "resolved_at": "2026-08-19 19:59:46"
+    },
+    {
+        "sys_id": "151",
+        "number": "INC0000151",
+        "short_description": "Unable to connect to VPN from D",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-03 06:07:02",
+        "resolved_at": "2026-09-05 18:07:02"
+    },
+    {
+        "sys_id": "152",
+        "number": "INC0000152",
+        "short_description": "Active Directory replication issue in QA",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-03 09:26:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "153",
+        "number": "INC0000153",
+        "short_description": "Payment Gateway Timeout for D",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-07 20:42:39",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "154",
+        "number": "INC0000154",
+        "short_description": "Disk space critically low on B",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-14 21:23:27",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "155",
+        "number": "INC0000155",
+        "short_description": "Password reset required for E",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-24 05:52:24",
+        "resolved_at": "2026-08-25 06:52:24"
+    },
+    {
+        "sys_id": "156",
+        "number": "INC0000156",
+        "short_description": "New employee QA workstation setup",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-03 17:39:26",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "157",
+        "number": "INC0000157",
+        "short_description": "Email server sync delayed on A",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-08 00:34:46",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "158",
+        "number": "INC0000158",
+        "short_description": "Payment Gateway Timeout for Dev",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-06 12:02:02",
+        "resolved_at": "2026-09-07 13:02:02"
+    },
+    {
+        "sys_id": "159",
+        "number": "INC0000159",
+        "short_description": "Laptop screen flickering for user 3",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-06 05:50:50",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "160",
+        "number": "INC0000160",
+        "short_description": "Unable to connect to VPN from F",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-29 02:58:17",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "161",
+        "number": "INC0000161",
+        "short_description": "Load balancer Prod degraded",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-15 19:18:36",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "162",
+        "number": "INC0000162",
+        "short_description": "Unable to connect to VPN from A",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-17 19:41:36",
+        "resolved_at": "2026-09-18 09:41:36"
+    },
+    {
+        "sys_id": "163",
+        "number": "INC0000163",
+        "short_description": "New employee Staging workstation setup",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-18 10:29:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "164",
+        "number": "INC0000164",
+        "short_description": "Mouse not working for QA",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-31 17:51:16",
+        "resolved_at": "2026-09-03 02:51:16"
+    },
+    {
+        "sys_id": "165",
+        "number": "INC0000165",
+        "short_description": "Active Directory replication issue in E",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-25 19:32:03",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "166",
+        "number": "INC0000166",
+        "short_description": "API Gateway D throwing 500s",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-01 17:26:54",
+        "resolved_at": "2026-09-04 17:26:54"
+    },
+    {
+        "sys_id": "167",
+        "number": "INC0000167",
+        "short_description": "AWS outage affecting 2 microservices",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-11 17:45:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "168",
+        "number": "INC0000168",
+        "short_description": "Printer 3 out of toner",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-20 09:56:22",
+        "resolved_at": "2026-08-21 17:56:22"
+    },
+    {
+        "sys_id": "169",
+        "number": "INC0000169",
+        "short_description": "Email server sync delayed on QA",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-18 13:26:44",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "170",
+        "number": "INC0000170",
+        "short_description": "Customer portal 1 slow response time",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-18 09:00:14",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "171",
+        "number": "INC0000171",
+        "short_description": "New employee 3 workstation setup",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-03 17:31:02",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "172",
+        "number": "INC0000172",
+        "short_description": "Database server Dev high CPU usage",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-12 21:35:08",
+        "resolved_at": "2026-09-15 17:35:08"
+    },
+    {
+        "sys_id": "173",
+        "number": "INC0000173",
+        "short_description": "Data warehouse 2 load failure",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-28 00:31:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "174",
+        "number": "INC0000174",
+        "short_description": "Mouse not working for Prod",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-31 20:09:07",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "175",
+        "number": "INC0000175",
+        "short_description": "Disk space critically low on 1",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-09 04:39:07",
+        "resolved_at": "2026-09-10 22:39:07"
+    },
+    {
+        "sys_id": "176",
+        "number": "INC0000176",
+        "short_description": "Payment Gateway Timeout for 1",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-27 04:59:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "177",
+        "number": "INC0000177",
+        "short_description": "Data warehouse Dev load failure",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-04 20:41:12",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "178",
+        "number": "INC0000178",
+        "short_description": "Password reset required for E",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-11 04:35:58",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "179",
+        "number": "INC0000179",
+        "short_description": "Mouse not working for A",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-12 18:52:46",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "180",
+        "number": "INC0000180",
+        "short_description": "Load balancer 3 degraded",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-02 20:04:17",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "181",
+        "number": "INC0000181",
+        "short_description": "AWS outage affecting E microservices",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-01 09:29:28",
+        "resolved_at": "2026-09-02 16:29:28"
+    },
+    {
+        "sys_id": "182",
+        "number": "INC0000182",
+        "short_description": "New employee Dev workstation setup",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-16 11:25:17",
+        "resolved_at": "2026-09-18 06:25:17"
+    },
+    {
+        "sys_id": "183",
+        "number": "INC0000183",
+        "short_description": "Email server sync delayed on E",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-24 01:09:21",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "184",
+        "number": "INC0000184",
+        "short_description": "Load balancer Prod degraded",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-15 13:22:20",
+        "resolved_at": "2026-08-16 15:22:20"
+    },
+    {
+        "sys_id": "185",
+        "number": "INC0000185",
+        "short_description": "Memory leak detected in E service",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-01 03:45:15",
+        "resolved_at": "2026-08-02 11:45:15"
+    },
+    {
+        "sys_id": "186",
+        "number": "INC0000186",
+        "short_description": "New employee Dev workstation setup",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-15 21:14:02",
+        "resolved_at": "2026-09-16 00:14:02"
+    },
+    {
+        "sys_id": "187",
+        "number": "INC0000187",
+        "short_description": "Cannot access HR portal from D",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-29 10:45:37",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "188",
+        "number": "INC0000188",
+        "short_description": "API Gateway Prod throwing 500s",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-05 14:17:28",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "189",
+        "number": "INC0000189",
+        "short_description": "Network outage in building D",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-30 00:11:04",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "190",
+        "number": "INC0000190",
+        "short_description": "API Gateway 1 throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-08 22:49:51",
+        "resolved_at": "2026-09-10 17:49:51"
+    },
+    {
+        "sys_id": "191",
+        "number": "INC0000191",
+        "short_description": "Payment Gateway Timeout for E",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-07 17:56:39",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "192",
+        "number": "INC0000192",
+        "short_description": "Unable to connect to VPN from 1",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-20 03:21:10",
+        "resolved_at": "2026-08-21 20:21:10"
+    },
+    {
+        "sys_id": "193",
+        "number": "INC0000193",
+        "short_description": "Email server sync delayed on Staging",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-14 09:45:05",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "194",
+        "number": "INC0000194",
+        "short_description": "Printer D out of toner",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-20 03:48:49",
+        "resolved_at": "2026-08-21 00:48:49"
+    },
+    {
+        "sys_id": "195",
+        "number": "INC0000195",
+        "short_description": "Unable to connect to VPN from F",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-21 21:26:06",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "196",
+        "number": "INC0000196",
+        "short_description": "API Gateway QA throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-09 06:09:20",
+        "resolved_at": "2026-09-11 18:09:20"
+    },
+    {
+        "sys_id": "197",
+        "number": "INC0000197",
+        "short_description": "Customer portal E slow response time",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-09-15 18:28:26",
+        "resolved_at": "2026-09-18 07:28:26"
+    },
+    {
+        "sys_id": "198",
+        "number": "INC0000198",
+        "short_description": "API Gateway 2 throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-30 20:29:29",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "199",
+        "number": "INC0000199",
+        "short_description": "Mouse not working for QA",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-11 12:45:13",
+        "resolved_at": "2026-09-14 07:45:13"
+    },
+    {
+        "sys_id": "200",
+        "number": "INC0000200",
+        "short_description": "Unable to connect to VPN from E",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-02 20:07:08",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "201",
+        "number": "INC0000201",
+        "short_description": "Load balancer A degraded",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-17 05:39:29",
+        "resolved_at": "2026-09-17 07:39:29"
+    },
+    {
+        "sys_id": "202",
+        "number": "INC0000202",
+        "short_description": "Disk space critically low on B",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-01 23:51:01",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "203",
+        "number": "INC0000203",
+        "short_description": "Active Directory replication issue in D",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-16 16:08:30",
+        "resolved_at": "2026-09-17 12:08:30"
+    },
+    {
+        "sys_id": "204",
+        "number": "INC0000204",
+        "short_description": "Active Directory replication issue in D",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-20 04:37:10",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "205",
+        "number": "INC0000205",
+        "short_description": "Unable to connect to VPN from B",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-03 12:42:05",
+        "resolved_at": "2026-09-05 13:42:05"
+    },
+    {
+        "sys_id": "206",
+        "number": "INC0000206",
+        "short_description": "Laptop screen flickering for user B",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-14 18:24:48",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "207",
+        "number": "INC0000207",
+        "short_description": "API Gateway QA throwing 500s",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-12 01:03:25",
+        "resolved_at": "2026-08-14 12:03:25"
+    },
+    {
+        "sys_id": "208",
+        "number": "INC0000208",
+        "short_description": "Customer portal 1 slow response time",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-02 11:27:06",
+        "resolved_at": "2026-09-02 13:27:06"
+    },
+    {
+        "sys_id": "209",
+        "number": "INC0000209",
+        "short_description": "Data warehouse 2 load failure",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-18 22:49:35",
+        "resolved_at": "2026-08-19 13:49:35"
+    },
+    {
+        "sys_id": "210",
+        "number": "INC0000210",
+        "short_description": "Payment Gateway Timeout for C",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-19 23:42:30",
+        "resolved_at": "2026-08-22 22:42:30"
+    },
+    {
+        "sys_id": "211",
+        "number": "INC0000211",
+        "short_description": "Network outage in building D",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-09 19:04:12",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "212",
+        "number": "INC0000212",
+        "short_description": "Load balancer QA degraded",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-18 01:34:49",
+        "resolved_at": "2026-08-19 22:34:49"
+    },
+    {
+        "sys_id": "213",
+        "number": "INC0000213",
+        "short_description": "Memory leak detected in B service",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-08 13:32:29",
+        "resolved_at": "2026-09-11 04:32:29"
+    },
+    {
+        "sys_id": "214",
+        "number": "INC0000214",
+        "short_description": "Memory leak detected in D service",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-29 19:32:43",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "215",
+        "number": "INC0000215",
+        "short_description": "Database server E high CPU usage",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-19 22:50:51",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "216",
+        "number": "INC0000216",
+        "short_description": "Laptop screen flickering for user QA",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-08 17:43:27",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "217",
+        "number": "INC0000217",
+        "short_description": "Active Directory replication issue in B",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-12 22:57:42",
+        "resolved_at": "2026-09-13 07:57:42"
+    },
+    {
+        "sys_id": "218",
+        "number": "INC0000218",
+        "short_description": "API Gateway C throwing 500s",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-02 10:35:11",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "219",
+        "number": "INC0000219",
+        "short_description": "Data warehouse QA load failure",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-08 18:57:23",
+        "resolved_at": "2026-08-11 13:57:23"
+    },
+    {
+        "sys_id": "220",
+        "number": "INC0000220",
+        "short_description": "Password reset required for D",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-16 04:21:46",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "221",
+        "number": "INC0000221",
+        "short_description": "Unable to connect to VPN from 3",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-24 05:20:56",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "222",
+        "number": "INC0000222",
+        "short_description": "Security certificate expired for QA",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-17 09:17:50",
+        "resolved_at": "2026-08-19 18:17:50"
+    },
+    {
+        "sys_id": "223",
+        "number": "INC0000223",
+        "short_description": "Network outage in building 2",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-07 03:05:24",
+        "resolved_at": "2026-08-08 20:05:24"
+    },
+    {
+        "sys_id": "224",
+        "number": "INC0000224",
+        "short_description": "Mouse not working for A",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-14 14:41:05",
+        "resolved_at": "2026-09-15 03:41:05"
+    },
+    {
+        "sys_id": "225",
+        "number": "INC0000225",
+        "short_description": "Memory leak detected in Staging service",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-21 03:55:23",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "226",
+        "number": "INC0000226",
+        "short_description": "Active Directory replication issue in B",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-07 06:36:18",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "227",
+        "number": "INC0000227",
+        "short_description": "API Gateway 2 throwing 500s",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-03 16:51:12",
+        "resolved_at": "2026-08-06 14:51:12"
+    },
+    {
+        "sys_id": "228",
+        "number": "INC0000228",
+        "short_description": "Data warehouse E load failure",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-10 17:31:49",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "229",
+        "number": "INC0000229",
+        "short_description": "Mouse not working for B",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-03 23:42:49",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "230",
+        "number": "INC0000230",
+        "short_description": "API Gateway E throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-03 07:23:07",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "231",
+        "number": "INC0000231",
+        "short_description": "Disk space critically low on D",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-25 22:23:13",
+        "resolved_at": "2026-08-26 00:23:13"
+    },
+    {
+        "sys_id": "232",
+        "number": "INC0000232",
+        "short_description": "Load balancer Staging degraded",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-09 08:45:45",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "233",
+        "number": "INC0000233",
+        "short_description": "Cannot access HR portal from D",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-06 03:09:04",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "234",
+        "number": "INC0000234",
+        "short_description": "New employee Dev workstation setup",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-17 04:39:06",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "235",
+        "number": "INC0000235",
+        "short_description": "Memory leak detected in 1 service",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-29 10:56:59",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "236",
+        "number": "INC0000236",
+        "short_description": "Payment Gateway Timeout for D",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-18 00:36:05",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "237",
+        "number": "INC0000237",
+        "short_description": "API Gateway F throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-06 20:37:03",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "238",
+        "number": "INC0000238",
+        "short_description": "Security certificate expired for 1",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-09 12:25:37",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "239",
+        "number": "INC0000239",
+        "short_description": "Unable to connect to VPN from 3",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-06 05:34:35",
+        "resolved_at": "2026-09-09 02:34:35"
+    },
+    {
+        "sys_id": "240",
+        "number": "INC0000240",
+        "short_description": "API Gateway 3 throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-03 22:55:32",
+        "resolved_at": "2026-08-05 03:55:32"
+    },
+    {
+        "sys_id": "241",
+        "number": "INC0000241",
+        "short_description": "Cannot access HR portal from C",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-08 03:50:51",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "242",
+        "number": "INC0000242",
+        "short_description": "Printer Prod out of toner",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-18 19:24:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "243",
+        "number": "INC0000243",
+        "short_description": "AWS outage affecting A microservices",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-09-02 03:37:59",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "244",
+        "number": "INC0000244",
+        "short_description": "Security certificate expired for E",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-05 21:11:32",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "245",
+        "number": "INC0000245",
+        "short_description": "Network outage in building Staging",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-08 23:17:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "246",
+        "number": "INC0000246",
+        "short_description": "Password reset required for Prod",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-31 01:30:25",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "247",
+        "number": "INC0000247",
+        "short_description": "Email server sync delayed on D",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-11 09:44:51",
+        "resolved_at": "2026-09-14 02:44:51"
+    },
+    {
+        "sys_id": "248",
+        "number": "INC0000248",
+        "short_description": "Mouse not working for D",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-12 22:42:45",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "249",
+        "number": "INC0000249",
+        "short_description": "Security certificate expired for Staging",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-05 17:59:38",
+        "resolved_at": "2026-08-06 21:59:38"
+    },
+    {
+        "sys_id": "250",
+        "number": "INC0000250",
+        "short_description": "Data warehouse Staging load failure",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-18 14:14:15",
+        "resolved_at": "2026-08-20 17:14:15"
+    },
+    {
+        "sys_id": "251",
+        "number": "INC0000251",
+        "short_description": "Memory leak detected in Staging service",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-08 12:23:19",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "252",
+        "number": "INC0000252",
+        "short_description": "Unable to connect to VPN from QA",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-05 18:25:17",
+        "resolved_at": "2026-09-06 23:25:17"
+    },
+    {
+        "sys_id": "253",
+        "number": "INC0000253",
+        "short_description": "Laptop screen flickering for user E",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-05 10:09:40",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "254",
+        "number": "INC0000254",
+        "short_description": "Payment Gateway Timeout for QA",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-13 02:37:29",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "255",
+        "number": "INC0000255",
+        "short_description": "Password reset required for C",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-13 15:42:40",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "256",
+        "number": "INC0000256",
+        "short_description": "Active Directory replication issue in D",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-23 16:14:37",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "257",
+        "number": "INC0000257",
+        "short_description": "API Gateway B throwing 500s",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-15 19:14:53",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "258",
+        "number": "INC0000258",
+        "short_description": "Load balancer Staging degraded",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-14 22:44:39",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "259",
+        "number": "INC0000259",
+        "short_description": "Load balancer Dev degraded",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-03 05:19:36",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "260",
+        "number": "INC0000260",
+        "short_description": "Email server sync delayed on 2",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-01 08:50:26",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "261",
+        "number": "INC0000261",
+        "short_description": "Printer Dev out of toner",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-04 03:25:40",
+        "resolved_at": "2026-08-05 02:25:40"
+    },
+    {
+        "sys_id": "262",
+        "number": "INC0000262",
+        "short_description": "Customer portal QA slow response time",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-09 05:56:58",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "263",
+        "number": "INC0000263",
+        "short_description": "Mouse not working for C",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-01 02:19:08",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "264",
+        "number": "INC0000264",
+        "short_description": "Cannot access HR portal from QA",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-08 20:15:04",
+        "resolved_at": "2026-08-09 18:15:04"
+    },
+    {
+        "sys_id": "265",
+        "number": "INC0000265",
+        "short_description": "New employee Dev workstation setup",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-26 11:34:36",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "266",
+        "number": "INC0000266",
+        "short_description": "Printer B out of toner",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-25 06:15:25",
+        "resolved_at": "2026-08-26 03:15:25"
+    },
+    {
+        "sys_id": "267",
+        "number": "INC0000267",
+        "short_description": "Active Directory replication issue in 2",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-05 22:57:08",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "268",
+        "number": "INC0000268",
+        "short_description": "Memory leak detected in Staging service",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-03 09:15:07",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "269",
+        "number": "INC0000269",
+        "short_description": "New employee 3 workstation setup",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-04 19:31:41",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "270",
+        "number": "INC0000270",
+        "short_description": "Email server sync delayed on Dev",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-03 22:26:10",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "271",
+        "number": "INC0000271",
+        "short_description": "Printer F out of toner",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-12 05:33:03",
+        "resolved_at": "2026-09-14 04:33:03"
+    },
+    {
+        "sys_id": "272",
+        "number": "INC0000272",
+        "short_description": "Disk space critically low on F",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-12 12:04:27",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "273",
+        "number": "INC0000273",
+        "short_description": "Memory leak detected in QA service",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-05 07:55:54",
+        "resolved_at": "2026-09-08 05:55:54"
+    },
+    {
+        "sys_id": "274",
+        "number": "INC0000274",
+        "short_description": "New employee C workstation setup",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-15 18:26:40",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "275",
+        "number": "INC0000275",
+        "short_description": "AWS outage affecting Dev microservices",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-03 22:18:30",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "276",
+        "number": "INC0000276",
+        "short_description": "Password reset required for 2",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-14 02:53:50",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "277",
+        "number": "INC0000277",
+        "short_description": "Security certificate expired for QA",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-13 22:19:04",
+        "resolved_at": "2026-08-14 09:19:04"
+    },
+    {
+        "sys_id": "278",
+        "number": "INC0000278",
+        "short_description": "Data warehouse B load failure",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-09 12:48:16",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "279",
+        "number": "INC0000279",
+        "short_description": "Printer A out of toner",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-21 03:49:08",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "280",
+        "number": "INC0000280",
+        "short_description": "Cannot access HR portal from QA",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-03 05:17:33",
+        "resolved_at": "2026-08-05 20:17:33"
+    },
+    {
+        "sys_id": "281",
+        "number": "INC0000281",
+        "short_description": "Customer portal F slow response time",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-16 22:48:15",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "282",
+        "number": "INC0000282",
+        "short_description": "AWS outage affecting C microservices",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-23 20:23:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "283",
+        "number": "INC0000283",
+        "short_description": "New employee 2 workstation setup",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-08-19 12:30:13",
+        "resolved_at": "2026-08-22 03:30:13"
+    },
+    {
+        "sys_id": "284",
+        "number": "INC0000284",
+        "short_description": "Active Directory replication issue in D",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-31 20:11:26",
+        "resolved_at": "2026-09-02 21:11:26"
+    },
+    {
+        "sys_id": "285",
+        "number": "INC0000285",
+        "short_description": "AWS outage affecting 3 microservices",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-15 18:22:20",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "286",
+        "number": "INC0000286",
+        "short_description": "AWS outage affecting F microservices",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-14 18:45:02",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "287",
+        "number": "INC0000287",
+        "short_description": "Cannot access HR portal from 3",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-24 00:19:08",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "288",
+        "number": "INC0000288",
+        "short_description": "Load balancer 2 degraded",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-17 11:35:08",
+        "resolved_at": "2026-09-19 00:35:08"
+    },
+    {
+        "sys_id": "289",
+        "number": "INC0000289",
+        "short_description": "Customer portal B slow response time",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-26 06:01:34",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "290",
+        "number": "INC0000290",
+        "short_description": "Security certificate expired for F",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-20 18:13:59",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "291",
+        "number": "INC0000291",
+        "short_description": "Security certificate expired for QA",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-12 12:07:18",
+        "resolved_at": "2026-08-14 04:07:18"
+    },
+    {
+        "sys_id": "292",
+        "number": "INC0000292",
+        "short_description": "Security certificate expired for B",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-01 02:07:19",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "293",
+        "number": "INC0000293",
+        "short_description": "Password reset required for Dev",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-31 04:32:34",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "294",
+        "number": "INC0000294",
+        "short_description": "Laptop screen flickering for user QA",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-13 06:15:42",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "295",
+        "number": "INC0000295",
+        "short_description": "Security certificate expired for Prod",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-14 15:09:15",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "296",
+        "number": "INC0000296",
+        "short_description": "API Gateway F throwing 500s",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-26 04:38:43",
+        "resolved_at": "2026-08-27 01:38:43"
+    },
+    {
+        "sys_id": "297",
+        "number": "INC0000297",
+        "short_description": "Printer F out of toner",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-12 15:07:46",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "298",
+        "number": "INC0000298",
+        "short_description": "Email server sync delayed on D",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-08 13:26:25",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "299",
+        "number": "INC0000299",
+        "short_description": "Password reset required for C",
+        "priority": "3 - Moderate",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-11 10:26:30",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "300",
+        "number": "INC0000300",
+        "short_description": "API Gateway Prod throwing 500s",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-23 02:26:51",
+        "resolved_at": "2026-08-26 02:26:51"
+    },
+    {
+        "sys_id": "301",
+        "number": "INC0000301",
+        "short_description": "Customer portal A slow response time",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-19 00:44:30",
+        "resolved_at": "2026-08-21 04:44:30"
+    },
+    {
+        "sys_id": "302",
+        "number": "INC0000302",
+        "short_description": "API Gateway Prod throwing 500s",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-01 21:23:34",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "303",
+        "number": "INC0000303",
+        "short_description": "Printer E out of toner",
+        "priority": "3 - Moderate",
+        "state": "Closed",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-12 12:54:12",
+        "resolved_at": "2026-09-14 22:54:12"
+    },
+    {
+        "sys_id": "304",
+        "number": "INC0000304",
+        "short_description": "Data warehouse B load failure",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-12 05:42:08",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "305",
+        "number": "INC0000305",
+        "short_description": "API Gateway A throwing 500s",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-13 00:44:10",
+        "resolved_at": "2026-08-15 01:44:10"
+    },
+    {
+        "sys_id": "306",
+        "number": "INC0000306",
+        "short_description": "Security certificate expired for A",
+        "priority": "2 - High",
+        "state": "In Progress",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-05 10:06:13",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "307",
+        "number": "INC0000307",
+        "short_description": "Network outage in building Prod",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-04 12:57:31",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "308",
+        "number": "INC0000308",
+        "short_description": "Data warehouse D load failure",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-08-03 11:47:46",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "309",
+        "number": "INC0000309",
+        "short_description": "Network outage in building 3",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-07 17:47:58",
+        "resolved_at": "2026-09-08 15:47:58"
+    },
+    {
+        "sys_id": "310",
+        "number": "INC0000310",
+        "short_description": "Load balancer 2 degraded",
+        "priority": "1 - Critical",
+        "state": "New",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-11 04:28:38",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "311",
+        "number": "INC0000311",
+        "short_description": "Load balancer QA degraded",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-28 11:32:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "312",
+        "number": "INC0000312",
+        "short_description": "Password reset required for F",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-01 13:03:12",
+        "resolved_at": "2026-09-02 06:03:12"
+    },
+    {
+        "sys_id": "313",
+        "number": "INC0000313",
+        "short_description": "API Gateway B throwing 500s",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-08-19 18:02:03",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "314",
+        "number": "INC0000314",
+        "short_description": "API Gateway Prod throwing 500s",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-01 17:25:09",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "315",
+        "number": "INC0000315",
+        "short_description": "Disk space critically low on E",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Cloud Ops",
+        "sys_created_on": "2026-09-04 14:11:20",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "316",
+        "number": "INC0000316",
+        "short_description": "Data warehouse Prod load failure",
+        "priority": "4 - Low",
+        "state": "Closed",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-08 04:50:16",
+        "resolved_at": "2026-08-11 01:50:16"
+    },
+    {
+        "sys_id": "317",
+        "number": "INC0000317",
+        "short_description": "Load balancer C degraded",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-01 21:18:15",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "318",
+        "number": "INC0000318",
+        "short_description": "Active Directory replication issue in C",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-15 20:51:53",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "319",
+        "number": "INC0000319",
+        "short_description": "Disk space critically low on Staging",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-09-01 21:09:23",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "320",
+        "number": "INC0000320",
+        "short_description": "AWS outage affecting 1 microservices",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-08 07:51:19",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "321",
+        "number": "INC0000321",
+        "short_description": "Payment Gateway Timeout for Dev",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-08 05:19:30",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "322",
+        "number": "INC0000322",
+        "short_description": "Data warehouse 1 load failure",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-03 08:31:44",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "323",
+        "number": "INC0000323",
+        "short_description": "Customer portal 3 slow response time",
+        "priority": "2 - High",
+        "state": "On Hold",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-06 01:55:32",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "324",
+        "number": "INC0000324",
+        "short_description": "New employee B workstation setup",
+        "priority": "1 - Critical",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-08-20 01:25:32",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "325",
+        "number": "INC0000325",
+        "short_description": "API Gateway 1 throwing 500s",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-12 02:09:40",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "326",
+        "number": "INC0000326",
+        "short_description": "Printer B out of toner",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-13 08:07:26",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "327",
+        "number": "INC0000327",
+        "short_description": "Security certificate expired for D",
+        "priority": "2 - High",
+        "state": "Resolved",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-09-17 01:46:02",
+        "resolved_at": "2026-09-19 03:46:02"
+    },
+    {
+        "sys_id": "328",
+        "number": "INC0000328",
+        "short_description": "Customer portal 3 slow response time",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-18 12:23:42",
+        "resolved_at": "2026-08-20 13:23:42"
+    },
+    {
+        "sys_id": "329",
+        "number": "INC0000329",
+        "short_description": "API Gateway 2 throwing 500s",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-08-26 23:12:42",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "330",
+        "number": "INC0000330",
+        "short_description": "New employee B workstation setup",
+        "priority": "1 - Critical",
+        "state": "In Progress",
+        "assignment_group": "DBA Team",
+        "sys_created_on": "2026-09-03 11:04:03",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "331",
+        "number": "INC0000331",
+        "short_description": "AWS outage affecting F microservices",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Data Engineering",
+        "sys_created_on": "2026-09-11 00:22:09",
+        "resolved_at": "2026-09-12 10:22:09"
+    },
+    {
+        "sys_id": "332",
+        "number": "INC0000332",
+        "short_description": "Printer Prod out of toner",
+        "priority": "3 - Moderate",
+        "state": "On Hold",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-12 19:58:50",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "333",
+        "number": "INC0000333",
+        "short_description": "Memory leak detected in 2 service",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-12 12:43:00",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "334",
+        "number": "INC0000334",
+        "short_description": "Laptop screen flickering for user A",
+        "priority": "4 - Low",
+        "state": "On Hold",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-12 07:34:24",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "335",
+        "number": "INC0000335",
+        "short_description": "Network outage in building C",
+        "priority": "3 - Moderate",
+        "state": "Resolved",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-08-04 18:02:47",
+        "resolved_at": "2026-08-06 05:02:47"
+    },
+    {
+        "sys_id": "336",
+        "number": "INC0000336",
+        "short_description": "Mouse not working for B",
+        "priority": "4 - Low",
+        "state": "In Progress",
+        "assignment_group": "Application Support",
+        "sys_created_on": "2026-09-16 16:11:30",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "337",
+        "number": "INC0000337",
+        "short_description": "Security certificate expired for E",
+        "priority": "2 - High",
+        "state": "New",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-08-05 18:08:45",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "338",
+        "number": "INC0000338",
+        "short_description": "Security certificate expired for B",
+        "priority": "4 - Low",
+        "state": "New",
+        "assignment_group": "Network Support",
+        "sys_created_on": "2026-09-11 20:28:42",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "339",
+        "number": "INC0000339",
+        "short_description": "Password reset required for C",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-09-14 16:08:11",
+        "resolved_at": "2026-09-16 23:08:11"
+    },
+    {
+        "sys_id": "340",
+        "number": "INC0000340",
+        "short_description": "Mouse not working for A",
+        "priority": "1 - Critical",
+        "state": "Resolved",
+        "assignment_group": "IT Infrastructure",
+        "sys_created_on": "2026-09-16 11:45:51",
+        "resolved_at": "2026-09-17 22:45:51"
+    },
+    {
+        "sys_id": "341",
+        "number": "INC0000341",
+        "short_description": "Active Directory replication issue in C",
+        "priority": "2 - High",
+        "state": "Closed",
+        "assignment_group": "Security Ops",
+        "sys_created_on": "2026-08-05 21:21:18",
+        "resolved_at": "2026-08-07 05:21:18"
+    },
+    {
+        "sys_id": "342",
+        "number": "INC0000342",
+        "short_description": "Disk space critically low on Prod",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Platform Engineering",
+        "sys_created_on": "2026-08-19 08:07:11",
+        "resolved_at": null
+    },
+    {
+        "sys_id": "343",
+        "number": "INC0000343",
+        "short_description": "AWS outage affecting D microservices",
+        "priority": "4 - Low",
+        "state": "Resolved",
+        "assignment_group": "IT Helpdesk",
+        "sys_created_on": "2026-08-24 04:21:01",
+        "resolved_at": "2026-08-26 22:21:01"
+    },
+    {
+        "sys_id": "344",
+        "number": "INC0000344",
+        "short_description": "Database server 1 high CPU usage",
+        "priority": "1 - Critical",
+        "state": "Closed",
+        "assignment_group": "",
+        "sys_created_on": "2026-09-09 19:27:05",
+        "resolved_at": "2026-09-10 08:27:05"
+    },
+    {
+        "sys_id": "345",
+        "number": "INC0000345",
+        "short_description": "Laptop screen flickering for user F",
+        "priority": "3 - Moderate",
+        "state": "New",
+        "assignment_group": "Facilities",
+        "sys_created_on": "2026-08-27 00:11:31",
+        "resolved_at": null
+    }
+]

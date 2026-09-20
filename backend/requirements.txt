@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+langchain
+langchain-google-genai
+python-dotenv
+sqlalchemy
+mcp
