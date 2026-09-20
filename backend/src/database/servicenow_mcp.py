@@ -38,14 +38,44 @@ def get_servicenow_credentials():
     pwd = os.environ.get("SERVICENOW_PASSWORD", "").strip("'").strip('"')
     return url, user, pwd
 
-def fetch_all_incidents():
-    """Helper function to fetch all incidents from the live ServiceNow API."""
+def fetch_all_incidents(source=None):
+    """Helper function to fetch all incidents from the live ServiceNow API or SQLite."""
+    if not source:
+        source = os.environ.get("INCIDENT_DATA_SOURCE", "servicenow")
+        
+    if source == "sqlite":
+        import sqlite3
+        try:
+            db_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "mock_incidents.db")
+            conn = sqlite3.connect(db_path)
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM incidents")
+            rows = cursor.fetchall()
+            conn.close()
+            
+            formatted_results = []
+            for row in rows:
+                formatted_results.append({
+                    "sys_id": row[0],
+                    "number": row[0],
+                    "short_description": row[1],
+                    "priority": row[4],
+                    "state": row[3],
+                    "assignment_group": row[5],
+                    "sys_created_on": row[6],
+                    "resolved_at": row[7] if row[7] else ""
+                })
+            return formatted_results
+        except Exception as e:
+            print(f"Error reading SQLite: {e}")
+            return MOCK_INCIDENTS
+
     url, user, pwd = get_servicenow_credentials()
     if not url or not user or not pwd or "dev00000" in url:
         print("Using Mock Data (Credentials missing)")
         return MOCK_INCIDENTS
         
-    endpoint = f"{url}/api/now/table/incident"
+    endpoint = f"{url}/api/now/table/incident?sysparm_display_value=true"
     headers = {"Accept": "application/json"}
     
     try:
@@ -60,13 +90,22 @@ def fetch_all_incidents():
         # Format the records to match our schema expectations
         formatted_results = []
         for inc in data.get("result", []):
+            # Filter out Out-Of-The-Box (OOTB) demo incidents that inflate MTTR
+            # Our imported mock incidents start with INC10000 (padded to INC0010000)
+            if inc.get("number", "") < "INC0010000":
+                continue
+                
+            ag = inc.get("assignment_group", "")
+            if isinstance(ag, dict):
+                ag = ag.get("display_value", "")
+                
             formatted_results.append({
                 "sys_id": inc.get("sys_id", ""),
                 "number": inc.get("number", ""),
                 "short_description": inc.get("short_description", ""),
                 "priority": inc.get("priority", ""),
                 "state": inc.get("state", ""),
-                "assignment_group": inc.get("assignment_group", ""),
+                "assignment_group": ag,
                 "sys_created_on": inc.get("sys_created_on", ""),
                 "resolved_at": inc.get("resolved_at", "")
             })

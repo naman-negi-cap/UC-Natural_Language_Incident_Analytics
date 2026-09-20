@@ -22,6 +22,7 @@ app.add_middleware(
 class QueryRequest(BaseModel):
     query: str
     model: str = "nvidia"
+    data_source: str = "servicenow"
 
 class QueryResponse(BaseModel):
     sql_query: str
@@ -32,11 +33,12 @@ class QueryResponse(BaseModel):
 
 class DrilldownRequest(BaseModel):
     query_args: dict
+    data_source: str = "servicenow"
 
 @app.post("/api/chat", response_model=QueryResponse)
 async def chat_endpoint(request: QueryRequest):
     try:
-        result = await query_incidents(request.query, request.model)
+        result = await query_incidents(request.query, request.model, request.data_source)
         return result
     except Exception as e:
         import traceback
@@ -48,7 +50,7 @@ async def drilldown_endpoint(request: DrilldownRequest):
     from database.servicenow_mcp import fetch_all_incidents
     import json
     
-    results = fetch_all_incidents()
+    results = fetch_all_incidents(source=request.data_source)
     args = request.query_args
     
     # Apply identical logic as query_servicenow_incidents
@@ -87,7 +89,7 @@ async def dynamic_kpis_endpoint(request: DrilldownRequest):
     from database.servicenow_mcp import fetch_all_incidents
     from datetime import datetime
     
-    results = fetch_all_incidents()
+    results = fetch_all_incidents(source=request.data_source)
     args = request.query_args
     
     # Apply identical logic as query_servicenow_incidents
@@ -153,12 +155,18 @@ async def dynamic_kpis_endpoint(request: DrilldownRequest):
         "sla_breaches": 0
     }
 
+@app.get("/api/config")
+async def get_config():
+    from database.servicenow_mcp import get_servicenow_credentials
+    url, _, _ = get_servicenow_credentials()
+    return {"servicenow_instance_url": url}
+
 @app.get("/api/kpis")
-async def get_kpis():
+async def get_kpis(source: str = "servicenow"):
     from database.servicenow_mcp import fetch_all_incidents
     from datetime import datetime
     
-    incidents = fetch_all_incidents()
+    incidents = fetch_all_incidents(source=source)
     
     open_count = 0
     critical_count = 0

@@ -45,7 +45,7 @@ def get_llm(model_choice: str = "nvidia"):
         
     return ChatGoogleGenerativeAI(model="gemini-3.5-flash", temperature=0, api_key=google_api_key)
 
-async def _mcp_interaction(question: str, model_choice: str = "nvidia"):
+async def _mcp_interaction(question: str, model_choice: str = "nvidia", data_source: str = "servicenow"):
     # Determine the path to the MCP Server script
     server_script = os.path.join(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
@@ -54,9 +54,13 @@ async def _mcp_interaction(question: str, model_choice: str = "nvidia"):
     )
     
     import sys
+    env_vars = os.environ.copy()
+    env_vars["INCIDENT_DATA_SOURCE"] = data_source
+    
     server_params = StdioServerParameters(
         command=sys.executable,
-        args=[server_script]
+        args=[server_script],
+        env=env_vars
     )
     
     async with stdio_client(server_params) as (read, write):
@@ -277,21 +281,21 @@ If you already have the data, provide a clear, concise, and helpful natural lang
                 "model_used": "llama-3.2-11b" if model_choice == "nvidia" else "gemini-3.5-flash"
             }
 
-def _run_mcp_sync(question: str, model_choice: str):
+def _run_mcp_sync(question: str, model_choice: str, data_source: str = "servicenow"):
     import asyncio
-    return asyncio.run(_mcp_interaction(question, model_choice))
+    return asyncio.run(_mcp_interaction(question, model_choice, data_source))
 
-async def query_incidents(question: str, model_choice: str = "nvidia"):
+async def query_incidents(question: str, model_choice: str = "nvidia", data_source: str = "servicenow"):
     import asyncio
     try:
-        return await asyncio.to_thread(_run_mcp_sync, question, model_choice)
+        return await asyncio.to_thread(_run_mcp_sync, question, model_choice, data_source)
                 
     except Exception as e:
         error_msg = str(e)
         if model_choice == "nvidia":
             print(f"NVIDIA API failed with error: {error_msg}. Falling back to Gemini...")
             try:
-                return await asyncio.to_thread(_run_mcp_sync, question, "gemini")
+                return await asyncio.to_thread(_run_mcp_sync, question, "gemini", data_source)
             except Exception as fallback_e:
                 import traceback
                 traceback.print_exc()
