@@ -1,6 +1,6 @@
 # Code Analysis
 
-This document provides a technical deep-dive into the primary files and execution flows within the ServiceNow Analytics repository.
+This document provides a technical deep-dive into the primary files and execution flows within the Natural Language Incident Analytics and Reporting repository.
 
 ## 1. `frontend/src/app/page.tsx`
 This file is the monolithic entry point for the React application, handling state, data fetching, charting, and PDF generation.
@@ -53,7 +53,7 @@ Wraps `_mcp_interaction` in a `try/except` block. If the NVIDIA API fails, it ca
 A FastMCP server implementation that standardizes database access into AI-friendly tools.
 
 ### `load_mock_incidents()`
-Loads `mock_incidents.json` into memory at module boot time. This is used as a highly reliable fallback if the live ServiceNow instance (configured via `.env`) is unreachable.
+Loads `mock_incidents.json` into memory at module boot time. This is used as a highly reliable fallback if the live ServiceNow instance (configured via `secrets.json`) is unreachable.
 
 ### Tools Exposed to LLM
 - `@mcp.tool() query_servicenow_incidents`: Accepts optional string filters (`priority`, `state`, `assignment_group`, `search_text`). It performs naive string-matching (e.g., `search_text.lower() in inc["short_description"].lower()`) to filter the array and returns a JSON string of the matching records.

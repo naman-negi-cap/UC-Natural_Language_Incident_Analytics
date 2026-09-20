@@ -5,7 +5,7 @@ from mcp.server.fastmcp import FastMCP
 from datetime import datetime
 
 # Initialize the FastMCP server
-mcp = FastMCP("ServiceNow Analytics MCP Server")
+mcp = FastMCP("Natural Language Incident Analytics and Reporting MCP Server")
 
 def load_mock_incidents():
     try:
@@ -20,9 +20,21 @@ MOCK_INCIDENTS = load_mock_incidents()
 
 def get_servicenow_credentials():
     from dotenv import load_dotenv
-    load_dotenv("src/.env")
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), ".env")
+    load_dotenv(env_path, override=True)
+    
+    secrets_file = os.environ.get("SECRETS_FILE")
+    if secrets_file:
+        secrets_path = os.path.join(os.path.dirname(env_path), secrets_file)
+        if os.path.exists(secrets_path):
+            with open(secrets_path, "r") as f:
+                secrets = json.load(f)
+                for k, v in secrets.items():
+                    if v:
+                        os.environ[k] = v
+
     url = os.environ.get("SERVICENOW_INSTANCE_URL", "").rstrip("/")
-    user = os.environ.get("SERVICENOW_USER", "")
+    user = os.environ.get("SERVICENOW_USER", os.environ.get("SERVICENOW_USERNAME", ""))
     pwd = os.environ.get("SERVICENOW_PASSWORD", "").strip("'").strip('"')
     return url, user, pwd
 

@@ -1,6 +1,6 @@
-# ServiceNow Analytics - System Documentation
+# Natural Language Incident Analytics and Reporting - System Documentation
 
-This document outlines the architecture, components, and data flow of the ServiceNow Analytics Dashboard application. 
+This document outlines the architecture, components, and data flow of the Natural Language Incident Analytics and Reporting application. 
 
 ## High-Level Architecture
 
@@ -67,4 +67,4 @@ sequenceDiagram
 - **Key Features**:
   - `query_servicenow_incidents`: Used for fetching lists of specific tickets (filtering by state, priority, or substring matches in the description).
   - `aggregate_servicenow_incidents`: Used for generating count-based metric breakdowns (e.g., tickets grouped by Assignment Group).
-  - **Mock Data Fallback**: Attempts to connect to the live ServiceNow instance using credentials in `.env`. If connection fails or credentials are missing, it gracefully degrades to serving data from `mock_incidents.json`.
+  - **Mock Data Fallback**: Attempts to connect to the live ServiceNow instance using credentials in `secrets.json` (linked via `.env`). If connection fails or credentials are missing, it gracefully degrades to serving data from `mock_incidents.json`.

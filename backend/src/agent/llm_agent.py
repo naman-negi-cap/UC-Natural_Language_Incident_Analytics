@@ -23,6 +23,16 @@ except Exception:
 env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), ".env")
 load_dotenv(env_path, override=True)
 
+secrets_file = os.environ.get("SECRETS_FILE")
+if secrets_file:
+    secrets_path = os.path.join(os.path.dirname(env_path), secrets_file)
+    if os.path.exists(secrets_path):
+        with open(secrets_path, "r") as f:
+            secrets = json.load(f)
+            for k, v in secrets.items():
+                if v:
+                    os.environ[k] = v
+
 def get_llm(model_choice: str = "nvidia"):
     google_api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
     nvidia_api_key = os.environ.get("NVIDIA_API_KEY")
