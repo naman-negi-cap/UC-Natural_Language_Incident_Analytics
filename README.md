@@ -1,6 +1,7 @@
 # Natural Language Incident Analytics and Reporting
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-14.x-black?logo=next.js)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-teal?logo=fastapi)
@@ -26,6 +27,30 @@ For an in-depth understanding of the system, please refer to the internal docume
 - **Real-Time KPIs**: Automatic calculation and rendering of Mean Time To Resolve (MTTR), Open Incidents, and SLA breaches based on the currently filtered view.
 - **One-Click PDF Export**: Instantly capture the dashboard state, charts, AI summary, and data tables into a styled PDF report.
 - **Resilient AI Strategy**: Primary execution utilizes NVIDIA's `llama-3.2-11b`. Features automatic, silent failover to Google's `gemini-3.5-flash` in the event of API rate limits or connection timeouts.
+
+---
+
+## 📸 Gallery
+
+**Prompt used:** *"Show me the top 5 critical incidents"*
+
+### 1. Dashboard Overview (Light Theme)
+<img src="./reports/gallery/1_dashboard.png" width="800" alt="Dashboard Overview Light" />
+
+### 2. Dashboard Overview (Dark Theme)
+<img src="./reports/gallery/1_dashboard_dark.png" width="800" alt="Dashboard Overview Dark" />
+
+### 3. Bar Chart View
+<img src="./reports/gallery/2_bar_chart.png" width="800" alt="Bar Chart View" />
+
+### 4. Pie Chart View
+<img src="./reports/gallery/3_pie_chart.png" width="800" alt="Pie Chart View" />
+
+### 5. Line Chart View
+<img src="./reports/gallery/4_line_chart.png" width="800" alt="Line Chart View" />
+
+### 6. Raw Data View
+<img src="./reports/gallery/5_raw_data.png" width="800" alt="Raw Data View" />
 
 ---
 
@@ -83,6 +108,7 @@ SECRETS_FILE=secrets.json
 
 **Run the Backend Server:**
 ```bash
+cd backend
 python src/main.py
 ```
 *The FastAPI server will boot up and listen on `http://localhost:8001`.*
@@ -94,13 +120,13 @@ cd frontend
 npm install
 npm run dev
 ```
-*The Next.js dashboard will be available at `http://localhost:3000`.*
+*The Next.js dashboard will be available at `http://localhost:4000`.*
 
 ---
 
 ## 💡 Usage
 
-1. Open `http://localhost:3000` in your browser.
+1. Open `http://localhost:4000` in your browser.
 2. Select your preferred AI model using the toggle at the top right (NVIDIA or Gemini).
 3. Type a query into the central command bar (e.g., *"Break down open tickets by Assignment Group"*).
 4. Review the generated visualizations, KPI metrics, and the AI Incident Analysis summary on the right pane.
